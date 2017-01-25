@@ -4,11 +4,41 @@
   "version": "0.1.0",
   "main": "lib/engine_thymol.js",
   "dependencies": {
-    "jquery": "2.2.4",
+    "jquery": "^3.1.1",
     "domino": "1.0.26",
-    "thymol-node": "2.0.1-pre.2"
+    "thymol-node": "git+ssh://git@github.com:headissue/thymol-node.git"
   },
-  "devDependencies": {},
+	"devDependencies": {
+    "eslint": "^3.5.0",
+		"nodeunit": "^0.10.2"
+  },
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Web Design",
+    "Node",
+    "Grunt",
+    "Gulp",
+    "Javascript",
+		"Thymeleaf",
+		"Thymol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/headissue/patternengine-node-thymol.git"
+  },
+  "bugs": "https://github.com/headissue/patternengine-node-thymol/issues",
+  "author": {
+    "name": "Maximilian Richt"
+  },
+  "contributors": [
+    {
+      "name": "Tobias Brennecke"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint lib/**/*.js && eslint test/**/*.js && nodeunit test/*.js"
+  },
   "engines": {
     "node": ">=4.0"
   }
