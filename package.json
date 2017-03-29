@@ -4,9 +4,8 @@
   "version": "0.1.1",
   "main": "lib/engine_thymol.js",
   "dependencies": {
-    "jquery": "^3.1.1",
     "domino": "1.0.26",
-    "thymol-node": "git+ssh://git@github.com:headissue/thymol-node.git"
+    "thymol-node": "git+https://github.com/thymol/thymol-node.git#4d709676aa54f5d2dd2e16ce7ce03d46b082edab"
   },
   "devDependencies": {
     "eslint": "^3.5.0",

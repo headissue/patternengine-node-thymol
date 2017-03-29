@@ -1,7 +1,7 @@
 The Thymol engine for Pattern Lab / Node
 ========================================
 
-This engine adds [Thymeleaf](http://www.thymeleaf.org/) support to the Node edition of Pattern Lab using [headissue/thymol-node](https://github.com/headissue/thymol-node).
+This engine adds [Thymeleaf](http://www.thymeleaf.org/) support to the Node edition of Pattern Lab using [thymol-node](https://github.com/thymol/thymol-node).
 
 Installing
 ----------
