@@ -1,7 +1,7 @@
 {
   "name": "patternengine-node-thymol",
   "description": "The Thymol engine for Pattern Lab / Node",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/engine_thymol.js",
   "dependencies": {
     "domino": "1.0.26",
